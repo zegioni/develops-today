@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: "icon", type: "image/svg", href: "/favicon.svg" }],
     },
-    baseURL: "/master/",
+    baseURL: "/nuxt3-test/",
   },
   runtimeConfig: {
     public: {
