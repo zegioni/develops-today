@@ -1,0 +1,55 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/composables/*": [
+        "composables/*"
+      ],
+      "@/layouts/*": [
+        "layouts/*"
+      ],
+      "@/locales/*": [
+        "locales/*"
+      ],
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/plugins/*": [
+        "plugins/*"
+      ],
+      "@/public/*": [
+        "public/*"
+      ],
+      "@/server/*": [
+        "server/*"
+      ],
+      "@/stores/*": [
+        "stores/*"
+      ],
+      "@/utils/*": [
+        "utils/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
