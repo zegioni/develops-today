@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  ssr: false,
   runtimeConfig: {
     public: {
       NAGER_API_URL: process.env.NAGER_API_URL,
